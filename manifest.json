@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "crackboard",
+	"name": "Crackboard",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
+	"minAppVersion": "1.6.0",
+	"description": "tpot leaderboard productivity tracker",
+	"author": "Franklin",
+	"authorUrl": "https://github.com/bruce-pain",
 	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }
