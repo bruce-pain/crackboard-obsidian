@@ -81,7 +81,6 @@ export default class CrackboardPlugin extends Plugin {
 	}
 
 	async saveSettings() {
-		console.log("saving..")
 		await this.saveData(this.settings);
 	}
 }
@@ -100,7 +99,7 @@ class CrackboardSettingTab extends PluginSettingTab {
 		containerEl.empty();
 
 		new Setting(containerEl)
-			.setName('Session Key')
+			.setName('Session key')
 			.setDesc('Enter your Crackboard session key')
 			.addText(text => text
 				.setPlaceholder('Enter your session key')
